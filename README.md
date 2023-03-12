@@ -1,11 +1,11 @@
-About r-nomnoml
-===============
+About r-nomnoml-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nomnoml-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/nomnoml
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nomnoml-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool for drawing sassy 'UML' diagrams based on a simple syntax, see <https://www.nomnoml.com>. Supports styling, R Markdown and exporting diagrams in the PNG format.
 
