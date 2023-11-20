@@ -1,4 +1,4 @@
-{% set version = "0.2.7" %}
+{% set version = "0.3.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/nomnoml_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/nomnoml/nomnoml_{{ version }}.tar.gz
-  sha256: 7ce8a9ffe1df1164e42af7a8fbfb61e6642aaa489fbfff14124d00fcd4007635
+  sha256: 4098d6314283d2f5461983023b2f4cd37618bfaad45db7fb81c05ee905eb7d2a
 
 build:
   merge_build_host: true  # [win]
@@ -31,7 +31,7 @@ requirements:
     - r-lifecycle
     - r-png
     - r-rlang
-    - r-webshot
+    - r-webshot2
 
   run:
     - r-base
@@ -39,7 +39,7 @@ requirements:
     - r-lifecycle
     - r-png
     - r-rlang
-    - r-webshot
+    - r-webshot2
 
 test:
   commands:
