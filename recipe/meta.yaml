@@ -31,7 +31,7 @@ requirements:
     - r-lifecycle
     - r-png
     - r-rlang
-    - r-webshot
+    - r-webshot2
 
   run:
     - r-base
@@ -39,7 +39,7 @@ requirements:
     - r-lifecycle
     - r-png
     - r-rlang
-    - r-webshot
+    - r-webshot2
 
 test:
   commands:
