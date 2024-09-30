@@ -1,7 +1,6 @@
 {% set version = "0.3.0" %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-nomnoml
@@ -14,8 +13,7 @@ source:
   sha256: 4098d6314283d2f5461983023b2f4cd37618bfaad45db7fb81c05ee905eb7d2a
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
